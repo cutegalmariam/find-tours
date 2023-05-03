@@ -1,0 +1,101 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+.notInterested {
+  width: 300px;
+  height: 50px;
+  border: 2px solid red;
+  color: red;
+  font-size: large;
+  background-color: white;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.priceBox {
+  width: 70px;
+  background-color: rgb(161, 206, 248);
+  color: blue;
+  font-size: x-large;
+  padding: 5px;
+  border-radius: 3px;
+}
+.info {
+  width: 100%;
+}
+.mainBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.tourBox {
+  padding: 15px;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  margin: 20px;
+  border-radius: 5px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+
+  background-color: gainsboro;
+  justify-content: center;
+  /* align-items: center; */
+}
+.headerAndPrice {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.refreshMain {
+  width: 100wv;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.refresh {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 200px;
+  background-color: white;
+  border-radius: 5px;
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.refreshButton {
+  background-color: rgb(127, 214, 255);
+  width: 100px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: large;
+  font: bold;
+  border-radius: 5px;
+}
+.loading {
+  padding: 100px;
+  font-size: 70px;
+}
